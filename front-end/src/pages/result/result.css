@@ -1,0 +1,25 @@
+.result-container{
+    display: flex;
+    flex-direction: column;
+    width:20vw;
+    margin: auto;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 1rem;
+    background-color: rgb(8 47 73);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+.result-head{
+    color: white;
+    font-size: 2.5rem;
+
+}
+.quiz-score{
+    color: white;
+    font-size: 2rem;
+}
+.score{
+    color: white;
+    font-size: 1.7rem;
+}

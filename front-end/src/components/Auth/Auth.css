@@ -1,0 +1,54 @@
+
+
+.Auth-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap:1.2rem;
+    background-color: rgb(8 47 73);
+    width: 20rem;
+    border-radius: 2rem;
+    margin: auto;
+    margin-top: 5rem;
+    box-shadow: 5px 5px 13px black ;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-input{
+    width: 17rem;
+    height: 2rem;
+    outline: none;
+    font-size: 0.9rem;
+}
+.form-element{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+.input-name{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+  
+}
+.login-head{
+    color: white;
+}
+.form-button{
+    width: 50%;
+    margin: auto;
+    height: 1.8rem;
+    font-size: 1.1rem;
+    border-radius: 4rem;
+    border: none;
+    background-color: rgb(7 89 133);
+    color: white;
+    cursor: pointer;
+}
+.form-button:hover{
+    background-color: rgb(14 116 144);
+}

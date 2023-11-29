@@ -1,0 +1,4 @@
+.all-quiz-list{
+    display: flex;
+    flex-wrap: wrap;
+}
